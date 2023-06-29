@@ -51,6 +51,7 @@ body{
     background-attachment: fixed;
     /* background: fixed; */
     /* background-size: fit; */
+    overflow: hidden;
 
 }
 .banner{
@@ -359,7 +360,7 @@ a{
     object-fit: cover;
     /* align-items: center; */
 }
-@media screen and (max-width: 600px){
+@media screen and (max-width: 700px){
     .so-link > img{
         width: 50px;
         height: 50px;
@@ -372,19 +373,19 @@ a{
         /* align-items: center; */
     }
     .insta-post{
-        width: 200px;
+        width: 300px;
         height: 400px;
     }
-    .socials{
-        width: 200px;
-        flex-direction: column;
-    }
+    /* .socials{
+        width: 300px;
+        /* flex-direction: column; */
+    
     h2{
-        font-size: 10px;
+        font-size: 20px;
     }
     .insta-pfp{
         width: 50px;
         height: 50px;
     }
 }
-    
+
