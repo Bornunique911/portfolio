@@ -51,7 +51,7 @@ body{
     background-attachment: fixed;
     /* background: fixed; */
     /* background-size: fit; */
-/*     overflow: hidden; */
+    /* overflow: hidden; */
 
 }
 .banner{
@@ -387,5 +387,128 @@ a{
         width: 50px;
         height: 50px;
     }
+    .nav-btn{
+        width: 50px;
+        height: 50px;
+        font-size: 10px;
+    }
 }
 
+.gal-banner{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    display: flex;
+    box-shadow: 0 0 10px rgb(119, 0, 255);
+}
+.gal-pfp-ban{
+    width: 100%;
+    height: 200px;
+    background-color: aquamarine;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgb(98, 0, 255);
+    background: linear-gradient(109.6deg, rgb(193, 98, 253) 11.2%, rgb(0, 49, 165) 91.1%);
+}
+.gal-pfp{
+    width: 150px;
+    height: 150px;
+    border: #4c00ff 2px solid;
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(119, 0, 255);
+    margin-top: 10px;
+}
+.photos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    box-shadow: 0 0 10px rgb(119, 0, 255);
+    border-radius: 5px;
+    overflow: hidden;
+    object-fit: contain;
+    /* align-items: center; */
+    background-color: rgba(0, 0, 0, 0.671);
+}
+@media screen and (max-width: 700px){
+    .photo{
+        width: 200px;
+        height: 200px;
+        margin: 10px;
+        box-shadow: 0 0 10px rgb(119, 0, 255);
+        border-radius: 5px;
+        overflow: hidden;
+        object-fit: contain;
+        /* align-items: center; */
+        background-color: rgba(0, 0, 0, 0.671);
+    }
+    .gal-pfp{
+        width: 100px;
+        height: 100px;
+    }
+    .gal-pfp-ban{
+        width: 100%;
+        height: 100px;
+        background-color: aquamarine;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 10px rgb(98, 0, 255);
+        background: linear-gradient(109.6deg, rgb(193, 98, 253) 11.2%, rgb(0, 49, 165) 91.1%);
+    }
+    .gal-banner{
+        width: 100%;
+        height: 50px;
+        object-fit: cover;
+        align-items: center;
+        background-color: black;
+        opacity: 0.8;
+        display: flex;
+        box-shadow: 0 0 10px rgb(119, 0, 255);
+    }
+    .photos{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+    }
+    .photo{
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+        box-shadow: 0 0 10px rgb(119, 0, 255);
+        border-radius: 5px;
+        overflow: hidden;
+        object-fit: contain;
+        /* align-items: center; */
+        background-color: rgba(0, 0, 0, 0.671);
+    }
+    .gal-pfp{
+        width: 50px;
+        height: 50px;
+    }
+    .gal-pfp-ban{
+        width: 100%;
+        height: 50px;
+        background-color: aquamarine;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 0 10px rgb(98, 0, 255);
+        background: linear-gradient(109.6deg, rgb(193, 98, 253) 11.2%, rgb(0, 49, 165) 91.1%);
+    }
+    
+}
